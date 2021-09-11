@@ -37,6 +37,7 @@ body{
     font-size: 55px;
     color:darkgoldenrod;
     border-radius: 10px;
+    text-shadow:0px 0px 10px darkgoldenrod;
 }
 .increase{
     margin-left: -140px;
