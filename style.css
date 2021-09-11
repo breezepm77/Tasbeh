@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Orloj';
+    src: url('./fonts/Orloj.woff2') format('woff2'),
+        url('./fonts/Orloj.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    background-color:green;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    width: 230px;
+    height: 250px;
+    border-radius: 25%;
+    border: none;
+}
+.value{
+    font-family: 'Orloj';
+    padding-left: 20px;
+    width: 180px;
+    background-color: grey;
+    margin-top: -140px;
+    margin-left: 40px;
+    height: 58px;
+    font-size: 55px;
+    color:darkgoldenrod;
+    border-radius: 10px;
+}
+.increase{
+    margin-left: -140px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    background-color:firebrick;
+    margin-top: 90px;
+}
+.reset{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    background-color: gold;
+    margin-left: -120.8px;
+    margin-top: 30px;
+}
+.list{
+    list-style-type: none;
+}
