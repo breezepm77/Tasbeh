@@ -35,9 +35,9 @@ body{
     margin-left: 40px;
     height: 58px;
     font-size: 55px;
-    color:skyblue;
+    color:indigo;
     border-radius: 10px;
-    text-shadow:0px 0px 30px skyblue;
+    text-shadow:0px 0px 30px indigo;
 }
 .increase{
     margin-left: -140px;
